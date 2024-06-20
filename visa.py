@@ -1,6 +1,9 @@
 from faker import Faker
 import pyfiglet
 from termcolor import colored
+import os
+
+os.system("clear") 
 
 # إنشاء كائن Faker
 fake = Faker()
