@@ -12,7 +12,7 @@ ascii_banner = pyfiglet.figlet_format("b14")
 print(colored(ascii_banner, 'green'))
 
 # طلب عدد البطاقات من المستخدم
-num_cards = int(input("Enter the number of fake Visa cards you want to generate: "))
+num_cards = int(input("Enter the number fake Visa "))
 
 # توليد وطباعة معلومات بطاقات الفيزا الوهمية
 for i in range(num_cards):
